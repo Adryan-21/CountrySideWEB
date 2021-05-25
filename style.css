@@ -6,6 +6,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  overflow: overlay;
 }
 
 .main {
@@ -95,7 +96,7 @@ button a {
   width: 100%;
   height: 100%;
 }
-.logo img {
+.logo .log {
   margin-bottom: 18px;
 }
 
@@ -106,11 +107,10 @@ button a {
 .arrow {
   position: absolute;
   display: grid;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 50px;
-  background-color: #202225;
-  bottom: -250px;
+  bottom: -55%;
   justify-items: center;
   align-items: center;
   transition: 0.5s;
